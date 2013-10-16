@@ -3,26 +3,26 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+== Jqgrid For Rails 4 sample application
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a <b>Rails 4.0 </b> sample application that uses
+jqgrid_for_rails[http://github.com/Juanmcuello/jqgrid_for_rails] gem.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== Installation
+
+  $ git clone https://github.com/Rameshwar007/jqgrid_rails_4_sample.git
+
+  $ cd jqgrid_rails_4_sample
+
+  $ bundle install
+
+  $ rake db:create
+
+  $ rake db:migrate
+  
+  $ rake db:seed
+
+  $ rails s
+
+  Go to: http://localhost:3000
