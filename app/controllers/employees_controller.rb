@@ -22,12 +22,12 @@ class EmployeesController < ApplicationController
   def update
     if params[:oper] == 'add'
       @employee = Employee.create!({:name => params[:name],:contact => params[:contact],:date_of_join => params[:date_of_join]})
+    elsif params[:oper] == 'edit'
+      @employee = Employee.find(params[:id])
+      @employee.update_attributes({:name => params[:name],:contact => params[:contact],:date_of_join => params[:date_of_join]})
     elsif params[:oper] == 'del'
       @employee = Employee.find(params[:id])
       @employee.destroy!
-    else
-      @employee = Employee.find(params[:id])
-      @employee.update_attributes({:name => params[:name],:contact => params[:contact],:date_of_join => params[:date_of_join]})
     end
     if request.xhr?
       render :json => @employee
