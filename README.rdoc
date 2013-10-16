@@ -1,9 +1,8 @@
-== README
+jqgrid_rails_4_sample
+=====================
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+jqgrid sample CRUD application with server side search using Rails 4.
 
-== Jqgrid For Rails 4 sample application
 
 This is a <b>Rails 4.0 </b> sample application that uses
 jqgrid_for_rails[http://github.com/Juanmcuello/jqgrid_for_rails] gem.
@@ -13,7 +12,7 @@ jqgrid_for_rails[http://github.com/Juanmcuello/jqgrid_for_rails] gem.
 
   $ git clone https://github.com/Rameshwar007/jqgrid_rails_4_sample.git
 
-  $ cd jqgrid_rails_4_sample
+  $ cd jqgrid_rails_4_sample	
 
   $ bundle install
 
