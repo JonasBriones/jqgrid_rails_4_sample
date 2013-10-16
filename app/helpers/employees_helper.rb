@@ -11,7 +11,7 @@ module EmployeesHelper
       :mtype => 'GET',
       :colNames => [  'ID','Name', 'Mobile Number', 'Date of Join'],
       :colModel  => [
-        { :name => 'id',   :index => 'id',    :width => 100,:align => 'left', :editable => true},
+        { :name => 'id',   :index => 'id',    :width => 100,:align => 'left'},
         { :name => 'name',   :index => 'name',    :width => 200,:align => 'left', :editable => true},
         { :name => 'contact', :index => 'contact',  :width => 200 ,:align => 'left', :editable => true},
         { :name => 'date_of_join', :index => 'date_of_join',  :width => 200 ,:align => 'left', :editable => true}
