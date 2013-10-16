@@ -13,8 +13,8 @@ module EmployeesHelper
       :colModel  => [
         { :name => 'id',   :index => 'id',    :width => 100,:align => 'left', :editable => true},
         { :name => 'name',   :index => 'name',    :width => 200,:align => 'left', :editable => true},
-        { :name => 'contact', :index => 'mobile_no',  :width => 200 ,:align => 'left', :editable => true},
-        { :name => 'date_of_join', :index => 'mobile_no',  :width => 200 ,:align => 'left', :editable => true}
+        { :name => 'contact', :index => 'contact',  :width => 200 ,:align => 'left', :editable => true},
+        { :name => 'date_of_join', :index => 'date_of_join',  :width => 200 ,:align => 'left', :editable => true}
       ],
       :editurl => '/employees/update',
       :pager => '#invoices_pager',
