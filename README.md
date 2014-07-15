@@ -1,6 +1,7 @@
 jqgrid_rails_4_sample
 =====================
 
+<<<<<<< HEAD
 jqgrid sample CRUD application with server side search using Rails 4.
 
 
@@ -25,3 +26,6 @@ jqgrid_for_rails[http://github.com/Juanmcuello/jqgrid_for_rails] gem.
   $ rails s
 
   Go to: http://localhost:3000
+=======
+Jqgrid with server side paginations
+>>>>>>> b57d0b2cc8a4d672ec6d5a6fe0b8cfa755bcc64e
